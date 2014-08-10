@@ -23,8 +23,8 @@ import gwtupload.client.IUploader;
 import gwtupload.client.IUploader.UploaderConstants;
 import gwtupload.client.PreloadedImage;
 import gwtupload.client.PreloadedImage.OnLoadPreloadedImageHandler;
-import gwtupload.client.SingleUploader;
-import gwtupload.client.SingleUploaderModal;
+import gwtupload.client.ResumableUploader;
+import gwtupload.client.ResumableUploaderModal;
 
 import com.google.gwt.core.client.EntryPoint;
 import com.google.gwt.dom.client.Style;
@@ -66,7 +66,7 @@ public class ResumableUploadSample implements EntryPoint {
   };
   
   public void onModuleLoad() {
-    SingleUploader resumable1 = new SingleUploaderModal();
+    ResumableUploader resumable1 = new ResumableUploaderModal();
     resumable1.addOnFinishUploadHandler(onFinishUploaderHandler);
     
     // This enables php apc progress mechanism
