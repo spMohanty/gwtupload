@@ -3,3 +3,6 @@ target/
 *.iws
 *.ipr
 .idea
+.gitignore
+.classpath
+.project

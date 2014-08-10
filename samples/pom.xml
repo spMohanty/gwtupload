@@ -5,7 +5,7 @@
   <packaging>war</packaging>
   <name>GwtUpload Examples</name>
   <description>Examples ready to deploy</description>
-
+  
   <parent>
     <groupId>com.googlecode.gwtupload</groupId>
     <artifactId>gwtupload-project</artifactId>
@@ -159,6 +159,7 @@
             <module>gwtuploadsample.ChismesUploadSample</module>
             <module>gwtuploadsample.SingleUploadSample</module>
             <module>gwtuploadsample.MultipleUploadSample</module>
+            <module>gwtuploadsample.ResumableUploadSample</module>
             <module>jsupload.JsUpload</module>
           </modules>
         </configuration>
