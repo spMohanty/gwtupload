@@ -26,6 +26,7 @@ RUNNING EXAMPLES
 - You can deploy the generated gwtupload-version.war in a servlet container or run it with:
   java -jar gwtupload-version.war
 
+- (Requires Maven 3)
 
 ECLIPSE:
 

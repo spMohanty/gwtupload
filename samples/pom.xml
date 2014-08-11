@@ -5,7 +5,7 @@
   <packaging>war</packaging>
   <name>GwtUpload Examples</name>
   <description>Examples ready to deploy</description>
-  
+
   <parent>
     <groupId>com.googlecode.gwtupload</groupId>
     <artifactId>gwtupload-project</artifactId>
@@ -83,7 +83,7 @@
 
   <properties>
     <www>${project.build.directory}/www</www>
-    <jetty.version>7.3.0.v20110203</jetty.version>
+    <jetty.version>8.1.9.v20130131</jetty.version>
   </properties>
 
   <build>
@@ -130,7 +130,7 @@
             </configuration>
           </execution>
         </executions>
-      </plugin>
+      </plugin> 
       <plugin>
         <groupId>org.codehaus.mojo</groupId>
         <artifactId>gwt-maven-plugin</artifactId>
@@ -173,6 +173,7 @@
             <fileset><directory>src/main/webapp/gwtuploadsample.MultipleUploadSample</directory></fileset>
             <fileset><directory>src/main/webapp/gwtuploadsample.Sample</directory></fileset>
             <fileset><directory>src/main/webapp/gwtuploadsample.SingleUploadSample</directory></fileset>
+            <fileset><directory>src/main/webapp/gwtuploadsample.ResumableUploadSample</directory></fileset>
             <fileset><directory>src/main/webapp/jsupload</directory></fileset>
             <fileset><directory>src/main/webapp/jsupload.JsUploadLib</directory></fileset>
             <fileset><directory>src/main/webapp/WEB-INF/classes</directory></fileset>
